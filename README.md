@@ -5,7 +5,7 @@
 -   Install `bun install`
 -   Run `bun run dev`
 
-> Should work with any package manager
+> Should work with any package manager (test with pnpm and bun)
 
 ## Assignment
 
