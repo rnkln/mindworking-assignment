@@ -22,4 +22,5 @@
 !prettier.config.js
 !README.md
 !tsconfig.json
+!vercel.json
 !vite.config.ts
