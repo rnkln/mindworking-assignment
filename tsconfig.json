@@ -1,0 +1,10 @@
+{
+	"extends": "@klnjs/typescript-config/esnext",
+	"compilerOptions": {
+		"paths": {
+			"@project/assets/*": ["./src/assets/*"]
+		}
+	},
+	"exclude": ["dist", "node_modules"],
+	"include": ["vite.config.ts", "src/**/*.ts", "src/**/*.tsx"]
+}

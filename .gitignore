@@ -1,0 +1,25 @@
+# Ignore everything
+*
+
+# Except these folders
+!.github/
+!.github/**/*
+!public/
+!public/**/*
+!src/
+!src/**/*
+
+# Except these files
+!.editorconfig
+!.gitignore
+!.tool-versions
+!bun.lockb
+!eslint.config.js
+!index.html
+!LICENSE
+!CHANGELOG.md
+!package.json
+!prettier.config.js
+!README.md
+!tsconfig.json
+!vite.config.ts

@@ -1,0 +1,18 @@
+:root {
+	--font-family: Arial;
+	--foreground-color: rgba(0, 0, 0, 0.87);
+	--background-color: #ffffff;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--foreground-color: rgba(255, 255, 255, 0.87);
+		--background-color: #242424;
+	}
+}
+
+body {
+	font-family: var(--font-family);
+	color: var(--foreground-color);
+	background-color: var(--background-color);
+}
