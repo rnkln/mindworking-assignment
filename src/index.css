@@ -1,5 +1,10 @@
 :root {
 	--font-family: Arial;
+	--spacing: 8px;
+	--spacing-2: calc(var(--spacing) * 2);
+	--palette-primary: #96bfc2;
+	--palette-primary-accent: #d8e9ea;
+	--palette-primary-contrast: #ffffff;
 	--foreground-color: rgba(0, 0, 0, 0.87);
 	--background-color: #ffffff;
 }
