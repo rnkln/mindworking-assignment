@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client'
 import {
 	createBrowserRouter,
 	createRoutesFromElements,
+	Navigate,
 	Route,
 	RouterProvider
 } from 'react-router-dom'
@@ -16,6 +17,7 @@ import ExperienceCreate from './domains/experiences/ExperienceCreate'
 const router = createBrowserRouter(
 	createRoutesFromElements(
 		<Route element={<App />}>
+			<Route path="/" element={<Navigate to="/profile" replace />} />
 			<Route path="/profile" element={<Profile />} />
 			<Route
 				path="/profile/add/experience"

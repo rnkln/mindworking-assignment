@@ -1,5 +1,12 @@
 # Mindworking
 
+## Running the project
+
+-   Install `bun install`
+-   Run `bun run dev`
+
+> Should work with any package manager
+
 ## Assignment
 
 Create a Single Page Application (SPA) as specified below. It should provide us
