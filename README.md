@@ -1,6 +1,9 @@
 # Mindworking
 
-## Running the project
+##
+Demo Deployed @ https://mindworking-assignment.vercel.app/profile
+
+## Running the project for development
 
 -   Install `bun install`
 -   Run `bun run dev`
