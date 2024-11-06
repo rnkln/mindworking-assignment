@@ -1,6 +1,5 @@
 import MindworkingLogo from '@project/assets/mindworking.svg?react'
-import Flex from './lib/Flex/Flex'
-import Card from './lib/Card/Card'
+import Profile from './domains/profile/Profile'
 import './App.css'
 
 export default () => (
@@ -10,14 +9,9 @@ export default () => (
 		</header>
 
 		{/* The main could be merged with the flex, see asChild or as patterns */}
+		{/* Instead of handling data loading inside lists, it could be done here for a better UX */}
 		<main>
-			<Flex direction="column" gap={2}>
-				<Card title="Experiences">a</Card>
-				<Card title="Education">a</Card>
-				<Card title="Skills">a</Card>
-			</Flex>
+			<Profile />
 		</main>
-
-		<footer>Footer</footer>
 	</div>
 )

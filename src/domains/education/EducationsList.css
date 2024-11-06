@@ -1,0 +1,8 @@
+.educations-list-item {
+	padding-block: var(--spacing-2);
+	border-block-end: 1px solid #373a3d;
+}
+
+.educations-list-item:last-child {
+	border-block-end: none;
+}

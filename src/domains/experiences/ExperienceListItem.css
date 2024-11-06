@@ -1,0 +1,16 @@
+.experiences-list-item {
+	padding-block: var(--spacing-2);
+	border-block-end: 1px solid #373a3d;
+	display: grid;
+	gap: var(--spacing);
+	grid-template-columns: auto 1fr;
+}
+
+.experiences-list-item:last-child {
+	border-block-end: none;
+}
+
+.experiences-list-item-description {
+	white-space: pre-line;
+	font: inherit;
+}
